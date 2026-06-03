@@ -4,22 +4,14 @@
     "slug": "AutoIQ",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "automatic",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#07090d"
-    },
+    "platforms": ["android"],
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#07090d"
-      },
       "package": "com.autoiq4.AutoIQ"
     },
-    "web": {
-      "bundler": "metro"
+    "extra": {
+      "eas": {
+        "projectId": "50a96065-b59d-4119-b404-1a9900b02eb5"
+      }
     }
   }
 }
